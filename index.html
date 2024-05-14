@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/png">
+    <title>Supsistem</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__box">
+                <div class="modal__close"></div>
+                <form action="#" class="modal__form">  
+                    <h3 class="modal__title">Оставьте заявку</h3>              
+                    <input type="name" name="name" required placeholder="Ваше имя" class="modal__input">
+                    <input type="tel" name="phone" required placeholder="Ваше телефон" class="modal__input" id="phone">
+                    <input type="email" name="email" required placeholder="Ваш Email" class="modal__input">
+                    <button class="modal__btn">Отправить данные</button>
+                </form>
+                <div class="modal__confirmation">Нажав отправить данные вы автоматически соглашаетсеь с <a href="confiducy.html">Политикой конфедициальности</a></div>
+            </div>     
+            <div class="modal__well">
+                Ваша заявка успешно отправлена
+            </div> 
+        </div>           
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="icons/logo.svg    " alt="logo">
+                </div>
+                <div class="header__contacts">
+                    <div class="header__contacts-logo">
+                        <img src="icons/7.svg" alt="contacts">
+                    </div>
+                    <div class="header__contacts-wrapper">
+                        <div class="header__contacts-phone">
+                            <a href="tel:79000167555">+7 9000 - 167 - 555</a>
+                        </div>
+                        <div class="header__contacts-mail">
+                            <a href="https://mail.ru/">supsistem@mail.ru</a>
+                        </div>
+                    </div>                  
+                </div>
+            </div>            
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <div class="about__wrapper">
+                <div class="about__box">
+                        <h1 class="about__title">Система управления пищевым производством</h1>
+                        <div class="about__subtitle">
+                            <span>Увеличить прибыль бизнеса  + 40%</span>
+                            На Вашем действующем объеме выпуска 
+                        </div>
+                </div>
+                <div class="about__img">
+                        <img src="img/bagraund.jpg" alt="bg">
+                </div>
+                </div>
+                <div class="about__keys">
+                    <div class="about__keys-item about__first">
+                        <div class="about__keys-header about__keys-header-first">
+                            Система увеличения выпуска продукции +40%
+                        </div>
+                        <div class="about__keys-img">
+                            <img src="img/keys-first.svg" alt="keys-first">
+                        </div>
+                        <button class="about__btn" onclick="window.location.href='../case1/index.html'">
+                            <a href="../case1/index.html" class="about__link" target="_blank">Кейс № 1</a>
+                        </button>
+                    </div>
+
+                    <div class="about__keys-item about__second">
+                        <div class="about__keys-header">
+                            Система сокращения тепловых потерь приготовления блюд до 15%
+                            Система продления сроков годности полуфабрикатов и готовых блюд 
+                        </div>
+                        <div class="about__keys-img">
+                            <img src="img/keys-second.svg" alt="keys-second">
+                        </div>
+                        <button class="about__btn" onclick="window.location.href='../case2/index.html'">
+                            <a href="case2/index.html" class="about__link" target="_blank">Кейс № 2</a>
+                        </button>
+                    </div>
+                </div>       
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages__title">Преимущества данной системы :</h2>
+                <div class="advantages__content">
+                    <div class="advantages__circle">
+                        <div class="advantages__circle-info">
+                            Система
+                            Управления
+                            Производством
+                        </div>
+                        <div class="advantages__trait"></div>  
+                        <div class="advantages__trait-2"></div>  
+                        <div class="advantages__trait-3"></div> 
+                        <div class="advantages__trait-4"></div> 
+                        <div class="advantages__trait-5"></div> 
+                        <div class="advantages__trait-6"></div> 
+                        <div class="advantages__trait-7"></div> 
+                    </div>
+                    <div class="advantages__elements">
+                        <div class="advantages__item">
+                            <div class="advantages__item-title">
+                                Объем продукции
+                            </div>
+                            <div class="advantages__item-subtitle">
+                                увеличить объем выпуска продукции + 40 % без увеличения штата работников
+                            </div>
+                        </div> 
+                        <div class="advantages__item">
+                            <div class="advantages__item-title">
+                                Срок годности
+                            </div>
+                            <div class="advantages__item-subtitle">
+                               продлить(увеличить) сроки годности полуфабрикатов и готовой продукции
+                            </div>
+                        </div>   
+                        <div class="advantages__item">
+                            <div class="advantages__item-title">
+                                Планировать и управлять
+                            </div>
+                            <div class="advantages__item-subtitle">
+                                планировать, управлять и контролировать выпуск продукции на каждом этапе
+                            </div>
+                        </div> 
+                        <div class="advantages__item">
+                            <div class="advantages__item-title">
+                                Снизить потери
+                            </div>
+                            <div class="advantages__item-subtitle">
+                                 снизить тепловые и холодные потери
+                            </div>
+                        </div> 
+                        <div class="advantages__item">
+                            <div class="advantages__item-title">
+                                Модернизация оборудования
+                            </div>
+                            <div class="advantages__item-subtitle">
+                                возможность провести модернизацию части технологического оборудования при сокращении затрат на производство продукции
+                            </div>
+                        </div> 
+                        <div class="advantages__item">
+                            <div class="advantages__item-title">
+                                Мотивация
+                            </div>
+                            <div class="advantages__item-subtitle">
+                                внедрить мотивационную систему для каждого сотрудника(действие-результат) 
+                            </div>
+                        </div> 
+                        <div class="advantages__item advantages__item-last ">
+                            <div class="advantages__item-title">
+                                Повысить эффективность
+                            </div>
+                            <div class="advantages__item-subtitle">
+                                повысить эффективность использования оборудования без дополнительных затрат на его модернизацию 
+                            </div>
+                        </div> 
+                    </div>                                   
+                </div>
+             
+            </div>
+        </section>
+        <section class="opportunites">
+            <div class="container">
+                <h2 class="opportunites__title">Откройте новые возможности в бизнесе</h2>
+                <div class="opportunites__items">
+                    <div class="opportunites__item">
+                        <div class="opportunites__item-image">
+                            <div class="opportunites__item-img">
+                                <img src="img/businessman.svg" alt="businessman">
+                            </div>
+                            <div class="opportunites__item-image-text">Что получает Собственник бизнеса :</div>
+                        </div>
+                        <div class="opportunites__item-info">
+                            <ul class="opportunites__item-lists">
+                                <li class="opportunites__item-list">
+                                    Оптимизацию производственных процессов в цехах <br><br>
+                                    <span>- Увеличение прибыли <br></span>
+                                    <span>- Повышение эффективности производства <br></span>
+                                    <span>- Снижение затрат <br></span>
+                                    <span>- Улучшение качества продукции <br></span>
+                                    <span>- Анализ текущих процессов <br></span>
+                                    <span>- Обучение,  внедрение и мониторинг новых процессов с персоналом производства <br><br></span>
+                                </li>
+                                <li class="opportunites__item-list"> 
+                                    Прозрачность производства<br><br>
+                                </li>
+                                <li class="opportunites__item-list">
+                                    Новый взгляд на свой бизнес<br><br>
+                                </li>
+                                <li class="opportunites__item-list">
+                                    Возможность увидеть альтернативную версию своего производства<br><br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="opportunites__item-bg">
+                            <img src="img/remove.svg" alt="opportunites__item-bg">
+                        </div>
+                    </div>
+
+                    <div class="opportunites__item">
+                        <div class="opportunites__item-image">
+                            <div class="opportunites__item-img">
+                                <img src="img/menager.svg" alt="businessman">
+                            </div>
+                            <div class="opportunites__item-image-text">Что получает Управляющий производством :</div>
+                        </div>
+                        <div class="opportunites__item-info">
+                            <ul class="opportunites__item-lists">
+                                <p>Знание. Опыт. Компетенцию.
+                                Профессионализм Мировых лидеров пищевой индустрии.</p>
+                                <li class="opportunites__item-list"> 
+                                    Очередность выполнения поставленных задач на производстве<br>
+                                </li> 
+                                <li class="opportunites__item-list"> 
+                                    Возможность не выпускать каждый день<br>
+                                </li>     
+                                <li class="opportunites__item-list"> 
+                                    Отсутствие списания<br>
+                                </li>       
+                                <li class="opportunites__item-list"> 
+                                    Простота обучения и внедрения персонала<br>
+                                </li>      
+                                <li class="opportunites__item-list">
+                                    Оптимизация и технологичность меню 
+                                    <span>-Новые технологические процессы подготовки и приготовления блюд <br></span>
+                                    <span>- Упрощение рецептур через сокращение технологических этапов приготовления <br></span>
+                                    <span>- Снижение затрат <br></span>
+                                    <span>- Матрица полуфабрикатов <br></span>
+                                    <span>- Выделение основных и новых категорий блюд <br></span>
+                                </li>
+                                <li class="opportunites__item-list"> 
+                                    Постоянство<br>
+                                </li>
+                                <li class="opportunites__item-list">
+                                    Новый взгляд на свой бизнес<br>
+                                </li>
+                                <li class="opportunites__item-list">
+                                    Хранение полуфабрикатов и готовой продукции (товарное соседство)<br>
+                                </li>
+                                <li class="opportunites__item-list">
+                                    Транспортировка готовой продукции и полуфабрикатов<br>
+                                </li>
+                                <li class="opportunites__item-list">
+                                    Планирование
+                                    <p>(Очередность приготовления необходимых блюд в требуемых объемах) Онлайн проработка сырья ( акты потерь холодных и тепловых) - ВСЕГДА</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video">
+                <h2 class="video__title">Данная система делает из Вашего предприятия современную фабрику кухни и открывает новые возможности в бизнесе </h2>
+                <div class="video__wrapper">
+                    <div class="container">
+                        <div class="video__slider">
+                            <div class="video__slider-item" data-src="https://www.youtube.com/embed/FfmhDEYLoq4">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Технология Су-Вид.Подготовительный этап перед варкой мяса
+                                </div>                            
+                            </div>
+
+                            <div class="video__slider-item video__slider-item-2" data-src="https://www.youtube.com/embed/Ki0gBAC9BQg">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Готовые упакованные блюда для удаленных точек
+                                </div>                            
+                            </div>
+                            <div class="video__slider-item video__slider-item-3" data-src="https://www.youtube.com/embed/RTN_DiAXMaA">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Разогрев-Регенерация готового блюда
+                                </div>                            
+                            </div>
+
+                            <div class="video__slider-item video__slider-item-4" data-src="https://www.youtube.com/embed/37nVcQGORMw">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Технология ГМА
+                                </div>                            
+                            </div>
+                         
+                            <div class="video__slider-item video__slider-item-5" data-src="https://www.youtube.com/embed/mVrlY2fDaXw">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Упаковка готовой продукции
+                                </div>                            
+                            </div>
+                            <div class="video__slider-item video__slider-item-6" data-src="https://www.youtube.com/embed/fESKw5bLFQk">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Пример упаковки полуфабрикатов для Холодного цеха.
+                                </div>                            
+                            </div>
+                            <div class="video__slider-item video__slider-item-7" data-src="https://www.youtube.com/embed/_KpLwUJsRqw">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Технология Пастеризации .Упакованная и пастеризованная готовая продукция.
+                                </div>                            
+                            </div>
+                            <div class="video__slider-item video__slider-item-8" data-src="https://www.youtube.com/embed/K36FZ2OSUCE">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Технология Су-Вид 
+                                </div>                            
+                            </div>
+                            <div class="video__slider-item video__slider-item-9" data-src="https://www.youtube.com/embed/AFQr5gncpYs">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Пример варки мяса по технологии Су-Вид.Низкотемпературная варка.
+                                </div>                            
+                            </div>
+                            <div class="video__slider-item video__slider-item-10" data-src="https://www.youtube.com/embed/uFxdjOu0-gA">
+                                <div class="video__slider-play">
+                                    <img src="icons/youtube.svg" alt="youtube" class="video__play">
+                                </div>
+                                <div class="video__slider-info" id="overlay">
+                                    Технология Вакуумизации
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+        </section>
+        <section class="slogan">
+            <div class="container">
+                <h2 class="slogan__header">
+                    Мы работаем с Вашим производством. На Вашем производстве. Для Вашего производства.
+                </h2>
+                <h3 class="slogan__subheader">НЕ ВАРИТЕ ПРОЦЕССЫ, А ГОТОВЬТЕ ИХ!!!</h3>
+                <div class="slogan__wrapper">
+                    <button class="slogan__consultation">Записаться на бесплатную консультацию</button>
+                    <button class="slogan__video" onclick="window.location.href='https://www.youtube.com/channel/UCFKSnStkL1IPSmnz1A7_E3g'">
+                        <a href="https://www.youtube.com/channel/UCFKSnStkL1IPSmnz1A7_E3g" class="slogan__link" target="_blank">Ссылка на все видео</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <img src="icons/logo.svg    " alt="logo">
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-logo">
+                        <img src="icons/7.svg" alt="contacts">
+                    </div>
+                    <div class="footer__contacts-wrapper">
+                        <div class="footer__contacts-phone">
+                            <a href="tel:79000167555">+7 9000 - 167 - 555</a>
+                        </div>
+                        <div class="footer__contacts-mail">
+                            <a href="https://mail.ru/">supsistem@mail.ru</a>
+                        </div>
+                    </div>                  
+                </div>
+            </div>            
+        </div>
+    </footer>
+    
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

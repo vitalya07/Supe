@@ -1,0 +1,33 @@
+body {
+    background: #969696;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+}
+button {
+    outline: none;
+}
+.container {
+    max-width: 1631px;
+    margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import "../block/header";
+@import "../block/about";
+@import "../block/advantages";
+@import "../block/opportunites";
+@import "../block/video";
+@import "../block/slogan";
+@import "../block/footer";
+@import "../block/modal";
+
+
+
+
+
+@import "media"
